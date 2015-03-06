@@ -22,7 +22,6 @@ class PdfResponse extends Middleware
             $this->pdf->load_html($response->getBody());
             $this->pdf->render();
             $response->setBody($this->pdf->output());
-            $response->headers->set('Content-Type', 'application/pdf');
         }
     }
 }
