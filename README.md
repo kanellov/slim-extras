@@ -30,4 +30,4 @@ Add this line to your application’s index.php file:
 
 ## System Requirements
 
-You need PHP >= 5.3.23.
+You need PHP >= 5.3.0.
