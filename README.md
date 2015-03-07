@@ -1,5 +1,8 @@
 # slim-extras
 
+master: [![Build Status](https://travis-ci.org/kanellov/slim-extras.svg?branch=master)](https://travis-ci.org/kanellov/slim-extras)
+develop: [![Build Status](https://travis-ci.org/kanellov/slim-extras.svg?branch=develop)](https://travis-ci.org/kanellov/slim-extras)
+
 Slim Framework extras
 
 ## Installation
@@ -27,4 +30,4 @@ Add this line to your application’s index.php file:
 
 ## System Requirements
 
-You need PHP >= 5.3.23.
+You need PHP >= 5.3.0.
