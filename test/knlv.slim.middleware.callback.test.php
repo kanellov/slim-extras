@@ -7,10 +7,11 @@ use Knlv\Slim\Middleware\Callback;
 date_default_timezone_set('Europe/Athens');
 
 fu::test('Test middleware throws exception on invlalid callable', function () {
-    $factory = function () {
+    try {
         new Callback('test');
-    };
-    fu::throws($factory, 'InvalidArgumentException', 'Throws if no callback is given');
+    } catch (Exception $e) {
+        fu::ok($e instanceof InvalidArgumentException, 'Throws if no callback is given');
+    }
 });
 
 fu::test('Test middleware set callback', function () {
