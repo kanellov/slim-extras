@@ -1,5 +1,8 @@
 # slim-extras
 
+master: [![Build Status](https://travis-ci.org/kanellov/slim-extras.svg?branch=master)](https://travis-ci.org/kanellov/slim-extras)
+develop: [![Build Status](https://travis-ci.org/kanellov/slim-extras.svg?branch=develop)](https://travis-ci.org/kanellov/slim-extras)
+
 Slim Framework extras
 
 ## Installation
